@@ -14,8 +14,8 @@ from tensorflow.keras import layers, models, optimizers
 # ----------------------------
 # Load Dataset
 # ----------------------------
-impedance_path = r"C:\Users\Amruthamsha P Raju\Downloads\archive (3)\impedance.csv"
-freq_path = r"C:\Users\Amruthamsha P Raju\Downloads\archive (3)\frequencies.csv"
+impedance_path = r"C:\Users\Amruthamsha P Raju\Downloads\archive (3)\impedance.csv" #impedence data
+freq_path = r"C:\Users\Amruthamsha P Raju\Downloads\archive (3)\frequencies.csv" #frequency data
 
 impedance_df = pd.read_csv(impedance_path)
 freq_df = pd.read_csv(freq_path)
