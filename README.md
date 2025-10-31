@@ -3,13 +3,13 @@
 
 ---
 
-## 📘 Overview
+## Overview
 This project implements a **Physics-Informed Neural Network (PINN)** to estimate the **State of Charge (SoC)** of batteries using **Electrochemical Impedance Spectroscopy (EIS)** data.  
 Unlike purely data-driven models, PINNs integrate **physical knowledge** (impedance–SoC relationships) directly into the loss function, ensuring predictions are both **accurate and physically consistent**.
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - **Physics-Informed Learning:** Combines traditional regression objectives with **physics-based constraints**, e.g.,  
   - Negative correlation between impedance magnitude (|Z|) and SoC  
@@ -29,7 +29,7 @@ Input features include `[FREQUENCY_VALUE, ReZ, ImZ, |Z|]` derived from complex i
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 1. **Data Preprocessing:**  
  - Merge impedance and frequency datasets  
@@ -56,7 +56,7 @@ Input features include `[FREQUENCY_VALUE, ReZ, ImZ, |Z|]` derived from complex i
 
 ---
 
-## 📊 Key Advantages
+## Key Advantages
 
 - Enforces **physically consistent predictions**, reducing non-physical anomalies in SoC estimates  
 - Improves **generalization** with limited or noisy data  
@@ -64,7 +64,7 @@ Input features include `[FREQUENCY_VALUE, ReZ, ImZ, |Z|]` derived from complex i
 
 ---
 
-## 🧭 Future Directions
+## Future Directions
 
 - Incorporate **battery aging and temperature effects** for more robust SoC estimation  
 - Extend to **time-series prediction** for real-time SoC tracking  
@@ -72,7 +72,7 @@ Input features include `[FREQUENCY_VALUE, ReZ, ImZ, |Z|]` derived from complex i
 
 ---
 
-## 🧾 References
+## References
 
 - Raissi, M., Perdikaris, P., & Karniadakis, G. E. “Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.” *Journal of Computational Physics*, 2019.  
 - Chawla, N. V., et al. “SMOTE: Synthetic Minority Over-sampling Technique.” *Journal of Artificial Intelligence Research*, 2002.  
