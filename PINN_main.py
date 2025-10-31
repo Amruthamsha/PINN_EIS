@@ -1,6 +1,5 @@
 # ===============================================
 # Physics-Informed Machine Learning for Battery SoC
-# Author: Amruthamsha P Raju
 # ===============================================
 
 import numpy as np
